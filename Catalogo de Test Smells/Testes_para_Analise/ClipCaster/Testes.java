@@ -6,7 +6,7 @@ import javax.xml.transform.Source;
 
 public class Testes {
 
-    /*ExceptionTest*/
+    /*Handling Exeption*/
     public void testInstrumentTimeFunction() throws  Throwable {
         Source source = mTestUtils.readSource(com.actisec.clipcaster.test.R.raw.lastpass_v3);
         JavaScript javaScript = new JavaScript(source.javascriptProgram);
@@ -23,7 +23,7 @@ public class Testes {
         }
     }
 
-    /*ExecptionTest */
+    /*Handling Exeption */
     public void testCreateDecryptPrgoram() throws  Throwable {
         Source source = mTestUtils.readSource(com.actisec.clipcaster.test.R.raw.lastpass_v3);
         JavaScript javaScript = new JavaScript(source.javascriptProgram);
